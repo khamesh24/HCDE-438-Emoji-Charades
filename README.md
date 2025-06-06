@@ -41,28 +41,28 @@ firebase deploy
 
 
 ▶️ How to Play
-	•	Player 1 enters a nickname and creates a room.
-	•	Player 2 enters the code to join.
-	•	Player 1 picks emojis and sets a secret phrase.
-	•	Player 2 sees the emojis and guesses the phrase.
-	•	A results screen shows the outcome.
+1. Player 1 enters a nickname and creates a room.
+2. Player 2 enters the code to join.
+3. Player 1 picks emojis and sets a secret phrase.
+4. Player 2 sees the emojis and guesses the phrase.
+5. A results screen shows the outcome.
 
 🔄 Challenges Faced
-	•	Manual screen flow management: Instead of using React Router, screen transitions are manually controlled through a stage state variable in App.jsx, which proved tricky to debug as the application grew in complexity.
-	•	State syncing: Ensuring consistent room status between two users was difficult, especially with Firebase’s real-time data model.
-	•	Glitchy transitions: Some screens (like results) occasionally glitch, especially on the host’s side.
+1. Manual screen flow management: Instead of using React Router, screen transitions are manually controlled through a stage state variable in App.jsx, which proved tricky to debug as the application grew in complexity.
+2. State syncing: Ensuring consistent room status between two users was difficult, especially with Firebase’s real-time data model.
+3. Glitchy transitions: Some screens (like results) occasionally glitch, especially on the host’s side.
 
 🚧 Known Issues
-	•	🚫 No validation for the phrase — any string is accepted regardless of clarity.
-	•	⚠️ Result screen may glitch for Player 1, not showing the final guess properly.
-	•	No user authentication or persistent data.
-	•	No way to check if both players are on the same screen during unexpected reloads.
+1. 🚫 No validation for the phrase — any string is accepted regardless of clarity.
+2. ⚠️ Result screen may glitch for Player 1, not showing the final guess properly.
+3. No user authentication or persistent data.
+4. No way to check if both players are on the same screen during unexpected reloads.
 
 📈 Future Enhancements
-	•	Add phrase validation or AI-assisted suggestions.
-	•	Improve visual feedback for correct/incorrect guesses.
-	•	Fix result screen bugs and improve role-based UI behavior.
-	•	Add basic user login or persistent nickname tracking.
+1. Add phrase validation or AI-assisted suggestions.
+2. Improve visual feedback for correct/incorrect guesses.
+3. Fix result screen bugs and improve role-based UI behavior.
+4. Add basic user login or persistent nickname tracking.
 
 ⸻
 
