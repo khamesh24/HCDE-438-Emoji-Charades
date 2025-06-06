@@ -1,6 +1,7 @@
 # 🎉 Emoji Charades
 
 Emoji Charades is a two-player web game where one player creates an emoji puzzle for the other to guess. Designed to be fun, fast, and creative, the game lets players communicate ideas through emoji combinations.
+Hosting URL: https://emoji-charades-fff86.web.app 
 
 ## 📘 Project Overview
 
