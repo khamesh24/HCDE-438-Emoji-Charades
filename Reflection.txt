@@ -1,0 +1,18 @@
+Working on this project was my first experience using React, and it was both a challenging and rewarding learning journey. Coming into this assignment, I had very limited knowledge of how React worked beyond its reputation as a popular JavaScript library. I had never created a project that involved multiple interactive components, state management, and user-based screen transitions. This project introduced me to all of that—and more.
+
+One of the biggest things I learned was the importance of state management in React. I used a stage state variable inside App.jsx to control screen transitions rather than relying on React Router. This approach allowed me to better understand how React handles component rendering based on internal application logic. It was more intuitive for me as a beginner to conditionally render components based on the current “stage” of the game, such as showing the emoji picker, the guessing screen, or the result screen.
+
+That said, I also explored using React Router, and it presented a number of challenges. Managing route paths, URL parameters, and navigation behavior felt overwhelming, especially when trying to sync that with real-time updates from Firebase. At times, React Router would navigate to a new route before the data had fully synced, causing unexpected behavior. This made me appreciate the manual stage-based control approach even more, at least for this project. In future projects, I would be more confident using React Router now that I better understand its structure, but I’m glad I started simple.
+
+Working with Firebase also helped me better understand how front-end and back-end services can connect in real-time. Using Firebase’s onSnapshot method to sync room states between Player 1 and Player 2 taught me how powerful and responsive real-time databases can be for interactive web applications.
+
+From a broader web development perspective, this project helped me solidify skills such as:
+	•	Designing user flows and component hierarchies
+	•	Writing readable and modular code with reusable components
+	•	Debugging component rendering issues using console logs and error messages
+	•	Thinking through asynchronous logic and how it affects UI transitions
+
+If I were to do this project again, I would have approached the initial planning phase more carefully. Many of the issues I faced later in development—such as glitches on the result screen or unclear player states—could have been avoided with better upfront planning around state logic and data modeling. I also would invest time in learning tools like React Context to manage global state more cleanly.
+
+Lastly, this project deeply connected the course’s theoretical concepts with hands-on implementation. Concepts like component-based design, asynchronous data flow, and user experience planning came to life through real challenges and iterative problem solving. I now feel significantly more confident in my ability to build interactive web apps using modern tools and libraries, and I’m excited to continue learning and improving in future projects.
+(Sorry for the weird formatting, I typed in in google docs and pasted it here)
